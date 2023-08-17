@@ -24,3 +24,4 @@ TestResults.xml
 node_modules/
 #
 .idea/
+dist/
