@@ -1,2 +1,2 @@
-# refactor
-Refactor your project?
+# Refactor your project
+
