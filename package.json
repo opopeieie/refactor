@@ -1,16 +1,15 @@
 {
-    "name": "pure-webpack5",
+    "name": "pure-webpack4",
     "version": "1.0.0",
-    "description": "",
     "main": "index.js",
     "scripts": {
       "start": "webpack serve --mode=development",
-      "build": "webpack"
+      "build": "webpack --mode=production"
     },
     "devDependencies": {
-      "html-webpack-plugin": "^5.5.1",
-      "webpack": "^5.84.1",
-      "webpack-cli": "^5.1.1",
+      "html-webpack-plugin": "^4.x",
+      "webpack": "^4.x",
+      "webpack-cli": "^4.x",
       "webpack-dev-server": "^4.15.0"
     }
   }

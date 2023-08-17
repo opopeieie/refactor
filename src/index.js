@@ -1,1 +1,1 @@
-console.log('pure-webpack5 loaded');
+console.log('pure-webpack4 loaded');
