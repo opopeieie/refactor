@@ -1,12 +1,12 @@
 import React, { StrictMode } from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import './normalize.css';
 
-const root = document.querySelector('#root');
-ReactDOM.render(
+const domNode = document.querySelector('#root');
+const root = createRoot(domNode);
+root.render(
   <StrictMode>
     <App />
-  </StrictMode>,
-  root
+  </StrictMode>
 )

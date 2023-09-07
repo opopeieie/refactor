@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div>Pure webpack5 react17 loaded</div>
+    <div>Pure webpack5 react18 loaded</div>
   )
 }
 
