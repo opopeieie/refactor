@@ -1,1 +1,0 @@
-console.log('pure-webpack5 loaded');
