@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import './style.css';
 
-const domNode = document.querySelector('#root');
-const root = createRoot(domNode);
+const domRoot = document.querySelector('#root');
+const root = createRoot(domRoot);
 root.render(
   <StrictMode>
     <App />
