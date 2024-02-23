@@ -25,3 +25,6 @@ node_modules/
 #
 .idea/
 dist/
+
+*.lock
+package-lock.json
