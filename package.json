@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "react": "canary",
-        "react-dom": "canary"
+        "react-dom": "canary",
+        "tailwindcss": "^3.4.3"
     }
 }
